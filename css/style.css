@@ -11,7 +11,41 @@
 /* 
     GENERAL
 */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
     
 .container{
-    
+ max-width: 1000px;
+ margin: auto;
 }
+
+    /* 
+        FONT
+    */
+    .pink-font{
+        color: #E43D76;
+    }
+    .white-font{
+        color: white;
+    }
+    .grey-font{
+        color: #353A3C;
+    }
+
+    /* 
+      MAIN
+    */
+    #title{
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    p{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+ 
