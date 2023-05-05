@@ -11,6 +11,9 @@
 /* 
     GENERAL
 */
+*{
+    font-family: 'Fredoka', sans-serif;
+}
 
 .clearfix::after {
     content: "";
@@ -33,19 +36,52 @@
         color: white;
     }
     .grey-font{
-        color: #353A3C;
+        color: #1e1919;
+    }
+    .light-blue-font{
+        color: #85C1E9;
     }
 
     /* 
       MAIN
     */
-    #title{
-        text-align: center;
-        padding: 40px 0;
-    }
+        /* MAIN HEADER  */
+        #title{
+            text-align: center;
+            padding: 30px 0;
+            font-size: 40px;
+        }
 
-    p{
-        text-align: center;
-        padding-bottom: 25px;
-    }
- 
+        /* SECTION PARAGRAPH */
+        p{
+            text-align: center;
+            padding-bottom: 35px;
+        }
+
+        /* SECTION TEAM MEMBERS */
+        .row-element{
+            float: left;
+            width: calc((100% / 3) - 20px);
+            background-color: black;
+            margin: 10px;
+            margin-bottom: 35px;
+        }
+        .image{
+            width: 80px;
+            vertical-align: middle;
+        }
+        .team-member-info{
+            display: inline-block;
+            line-height: 20px;
+            vertical-align: middle;
+            margin: 10px;
+        }
+        small{
+            display:block;
+        }
+        .name{
+            font-weight: bold;
+        }
+        .debug{
+            border: 2px dashed red;
+        }
