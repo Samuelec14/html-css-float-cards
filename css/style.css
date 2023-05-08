@@ -82,6 +82,9 @@
         .name{
             font-weight: bold;
         }
+
+        /* DEBUG  */
+
         .debug{
             border: 2px dashed red;
         }
